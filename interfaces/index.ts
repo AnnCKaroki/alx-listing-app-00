@@ -16,3 +16,18 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+
+export interface PropertyProps {
+  name: string;
+  address: AddressProps;
+  rating: number;
+  category: string[];
+  price: number;
+  offers: OffersProps;
+  image: string;
+  discount: string;
+   hostName?: string;
+  hostEmail?: string;
+   description: string;
+  reviews: any[]; // Assuming reviews is an array of objects}
+}
